@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rira_TohidBadri_Crud.Contract\Rira_TohidBadri_Crud.Contract.csproj" />
+    <ProjectReference Include="..\Rira_TohidBadri_Crud.Domain\Rira_TohidBadri_Crud.Domain.csproj" />
+    <ProjectReference Include="..\Rira_TohidBadri_Crud.Infrastructure\Rira_TohidBadri_Crud.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

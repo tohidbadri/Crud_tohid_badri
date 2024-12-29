@@ -1,0 +1,6 @@
+@Rira_TohidBadri_Crud.Peresentation_HostAddress = http://localhost:5267
+
+GET {{Rira_TohidBadri_Crud.Peresentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
